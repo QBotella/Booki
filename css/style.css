@@ -18,6 +18,42 @@ body {
     justify-content: center;
 }
 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.header-sous-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 50px 0px 50px;
+    gap: 68px;
+}
+
+a:visited {
+    color: black;
+}
+
+.header-hebergements:hover,
+.header-activites:hover {
+    border-top: solid 2px;
+    border-color:#0065FC;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0065FC;
+}
+
+.header {
+    height: 79px;
+}
+
 .main-container {
     width: 100%;
     max-width: 1440px;
