@@ -46,6 +46,43 @@ a {
     text-decoration: none;
 }
 
+.rechercher-logo {
+    border-radius: 15px 0px 0px 15px ;
+    border: solid #ffffff 1px;
+    padding: 14px 18px 15px 18px;
+    background-color: #d9d9d9;
+}
+
+.fa-location-dot {
+    color: black;
+}
+
+.main-rechercher{
+    display: flex;
+    text-align: center;
+    border: solid #F2F2F2 1px;
+    width: 377px;
+    height: 49px;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.rechercher-text {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.rechercher-button {
+    border-radius: 0px 15px 15px 0px;
+    border: solid #0065FC 1px;
+    padding: 15px 16px 15px 16px;
+    gap: 15px;
+    background-color: #0065FC;
+    color: #F2F2F2;
+    font-weight: bold;
+}
+
 a:hover {
     color: #0065FC;
 }
