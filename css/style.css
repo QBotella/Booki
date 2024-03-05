@@ -57,7 +57,7 @@ a {
 .main-search{
     display: flex;
     text-align: center;
-    border: solid #F2F2F2 1px;
+    border: solid var(--main-bg-color)1px;
     width: 377px;
     height: 49px;
     justify-content: space-between;
@@ -79,7 +79,7 @@ a {
     padding: 15px 16px 15px 16px;
     gap: 15px;
     background-color: var(--main-color);
-    color: #F2F2F2;
+    color: var(--main-bg-color);
     font-weight: bold;
 }
 
@@ -88,7 +88,7 @@ a {
 }
 
 a:hover {
-    color: #0065FC;
+    color: var(--main-color);
 }
 
 .header {
