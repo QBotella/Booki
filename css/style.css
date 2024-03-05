@@ -19,35 +19,31 @@ body {
     margin-top: 0px;
 }
 
-.header-container {
+header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     color: black;
 }
 
-.header-sous-container {
+header a {
+    padding-top: 16px;
+    border-top: solid 2px transparent;
+}
+
+header a:hover {
+    border-color: var(--main-color);
+}
+
+.header-links {
     display: flex;
-    justify-content: flex-end;
-    padding: 0px 50px 0px 50px;
-    gap: 68px;
-}
-
-a:visited {
-    color: black;
-}
-
-.header-hebergements:hover,
-.header-activites:hover {
-    border-top: solid 2px;
-    border-color:#0065FC;
+    gap: 69px;
 }
 
 a {
     text-decoration: none;
 }
 
-.rechercher-logo {
+.search-logo {
     border-radius: 15px 0px 0px 15px ;
     border: solid #ffffff 1px;
     padding: 14px 18px 15px 18px;
@@ -58,7 +54,7 @@ a {
     color: black;
 }
 
-.main-rechercher{
+.main-search{
     display: flex;
     text-align: center;
     border: solid #F2F2F2 1px;
@@ -67,21 +63,28 @@ a {
     justify-content: space-between;
     margin-top: 50px;
     margin-bottom: 50px;
+    border-radius: 15px;
 }
 
-.rechercher-text {
+.search-text {
     font-size: 18px;
     font-weight: 700;
+    text-align: center;
+    border-color: transparent;
 }
 
-.rechercher-button {
+.search-button {
     border-radius: 0px 15px 15px 0px;
-    border: solid #0065FC 1px;
+    border: solid var(--main-color) 1px;
     padding: 15px 16px 15px 16px;
     gap: 15px;
-    background-color: #0065FC;
+    background-color: var(--main-color);
     color: #F2F2F2;
     font-weight: bold;
+}
+
+.visible-sm {
+    display: none;
 }
 
 a:hover {
@@ -227,7 +230,9 @@ a:hover {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    .visible-sm {
+        display: block;
+    }
 }
 
 /* medium and Large devices(all execept phone, more than 768px) */
