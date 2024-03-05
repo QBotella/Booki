@@ -16,6 +16,7 @@
 body {
     display: flex;
     justify-content: center;
+    margin-top: 0px;
 }
 
 .header-container {
@@ -227,4 +228,11 @@ a:hover {
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+}
+
+/* medium and Large devices(all execept phone, more than 768px) */
+@media (min-width: 768px) {
+    .fa-solid fa-magnifying-glass{
+        display: none;
+    }
 }
