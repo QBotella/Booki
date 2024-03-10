@@ -26,23 +26,35 @@ header {
     height: 79px;
 }
 
+header img{
+    padding-top: 30px;
+}
+
 header ul {
     list-style: none;
     display: flex;
     gap: 69px;
+    margin: 0;
 }
 
-header a {
+header li {
     padding-top: 16px;
     border-top: solid 2px transparent;
 }
 
-header li a:hover {
+header li:hover {
     border-color: var(--main-color);
+    color: var(--main-color);
 }
 
 a {
     text-decoration: none;
+}
+
+.info-group {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
 }
 
 .search-logo {
@@ -62,8 +74,6 @@ a {
     width: 377px;
     height: 49px;
     justify-content: space-between;
-    margin-top: 35px;
-    margin-bottom: 35px;
     border-radius: 25px;
 }
 
@@ -74,7 +84,7 @@ a {
     border-color: transparent;
 }
 
-.search-button {
+.search-bar button {
     border-radius: 0px 15px 15px 0px;
     border: solid var(--main-color) 1px;
     padding: 15px 16px 15px 16px;
@@ -96,8 +106,7 @@ a:hover {
     display: flex;
     gap: 15px;
     height: 50px;
-    text-align: center;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -106,13 +115,24 @@ a:hover {
     border: solid 2px #d9d9d9;
     border-radius: 25px;
     padding: 4px 19px 4px 19px;
-    text-align: center;
     gap: 10px;
     align-items: center;
+    font-size: 17px;
+    font-weight: 700;
 }
 
-.filter a:hover {
+.filter button:hover {
     background-color: var(--filter-bg-color);
+}
+
+.fa-info {
+    border-radius: 50%;
+    border: solid 1px #d9d9d9;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 10px;
 }
 
 .main-container {
@@ -150,6 +170,10 @@ a:hover {
     color: var(--main-bg-color)
 }
 
+.glass {
+    color: var(--main-bg-color) !important;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -166,6 +190,35 @@ a:hover {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hebergements-1-line {
+    display: flex;
+    gap: 30px;
+}
+
+.hebergements-2-line {
+    display: flex;
+    gap: 30px;
+}
+
+.hebergements-cards .card{
+    display: flex;
+    flex-direction: column;
+    width: 250.33px;
+}
+
+.hebergements-cards img {
+    height: 124px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.hebergements a {
+    font-size: 18px;
+    font-weight: 700;
 }
 
 /****** Populaires ***********/
@@ -252,6 +305,14 @@ a:hover {
 @media (max-width: 767.98px) {
     .visible-sm {
         display: block;
+    }
+
+    .visible-td {
+        display: none;
+    }
+
+    body {
+        margin: 0;
     }
 }
 
