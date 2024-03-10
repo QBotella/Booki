@@ -198,6 +198,7 @@ a:hover {
 .hebergements-1-line {
     display: flex;
     gap: 30px;
+    margin-bottom: 30px;
 }
 
 .hebergements-2-line {
@@ -212,8 +213,31 @@ a:hover {
 }
 
 .hebergements-cards img {
-    height: 124px;
+    height: 114px;
     border-radius: 20px 20px 0px 0px;
+    border: solid 5px white;
+}
+
+.hebergements-cards .card-content {
+    height: 40%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    gap: 8px;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 11px;
+    margin-bottom: 4px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin: 0;
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 7px;
 }
 
 .hebergements a {
