@@ -216,7 +216,6 @@ a:hover {
 .hebergements-cards img {
     height: 114px;
     border-radius: 20px 20px 0px 0px;
-    border: solid 5px white;
 }
 
 .hebergements-cards .card-content {
