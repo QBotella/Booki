@@ -1,0 +1,163 @@
+.d-flex {
+    display: flex !important;
+}
+
+.flex-d-column {
+    flex-direction: column !important;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.h-79px {
+    height: 79px !important;
+}
+
+.h-69px {
+    height: 69px !important;
+}
+
+.h-50px {
+    height: 50px !important;
+}
+
+.h-49px {
+    height: 49px !important;
+}
+
+.h-24px {
+    height: 24px !important;
+}
+
+.w-377px {
+    width: 377px !important;
+}
+
+.w-195px {
+    width: 195px !important;
+}
+
+.w-24px {
+    width: 24px !important;
+}
+
+.w-full {
+    width: 100% !important;
+}
+
+.m-w-1440px {
+    max-width: 1440px !important;
+}
+
+.g-69px {
+    gap: 69px !important;
+}
+
+.g-35px {
+    gap: 35px !important;
+}
+
+.g-15px {
+    gap: 15px !important;
+}
+
+.g-10px {
+    gap: 10px !important;
+}
+
+.g-8px {
+    gap: 8px !important;
+}
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.m-t-30px {
+    margin-top: 30px !important;
+}
+
+.m-t-21px {
+    margin-top: 21.5px !important;
+}
+
+.m-r-10px {
+    margin-right: 10px !important;
+}
+
+.p-5px {
+    padding: 5px !important;
+}
+
+.p-t-30px {
+    padding-top: 30px !important;
+}
+
+.p-t-16px {
+    padding-top: 16px !important;
+}
+
+.b-rad-25px {
+    border-radius: 25px !important;
+}
+
+.b-rad-20px {
+    border-radius: 20px !important;
+}
+
+.ju-co-center {
+    justify-content: center !important;
+}
+
+.ju-co-space-between {
+    justify-content: space-between !important;
+}
+
+.t-al-center {
+    text-align: center !important;
+}
+
+.al-it-center {
+    align-items: center !important;
+}
+
+.f-s-16px {
+    font-size: 16px !important;
+}
+
+.f-s-17px {
+    font-size: 17px !important;
+}
+
+.f-s-18px {
+    font-size: 18px !important;
+}
+
+.f-s-22px {
+    font-size: 22px !important;
+}
+
+.f-s-130 {
+    font-size: 129.4% !important;
+}
+
+.f-w-700 {
+    font-weight: 700 !important;
+}
+
+.f-w-400 {
+    font-weight: 400 !important;
+}
+
+.b-siz-border-box {
+    box-sizing: border-box !important;
+}
+
+.li-st-none {
+    list-style: none !important;
+}
+
+.visible-sm {
+    display: none !important;
+}
