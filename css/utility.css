@@ -54,8 +54,16 @@
     gap: 69px !important;
 }
 
+.g-40px {
+    gap: 40px !important;
+}
+
 .g-35px {
     gap: 35px !important;
+}
+
+.g-30px {
+    gap: 30px !important;
 }
 
 .g-15px {
@@ -84,6 +92,10 @@
 
 .m-r-10px {
     margin-right: 10px !important;
+}
+
+.m-b-30px {
+    margin-bottom: 30px !important;
 }
 
 .p-5px {
