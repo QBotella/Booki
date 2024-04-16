@@ -313,6 +313,14 @@ footer h3 {
         flex-direction: column;
         padding: 0;
     }
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse !important;
+    }
+
+    .mobile-card {
+        flex-direction: column;
+    }
 }
 
 
