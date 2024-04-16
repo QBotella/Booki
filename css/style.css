@@ -193,15 +193,11 @@ a:hover {
 
 .populaires-cards .card-title {
     margin-top: 11px;
-    margin-bottom: 4px;
+    margin-bottom: 0;
 }
 
 .populaires-cards .card-subtitle {
     margin: 0;
-}
-
-.populaires-cards .card-rating {
-    margin-bottom: 7px;
 }
 
 /****** Activitées ***********/
