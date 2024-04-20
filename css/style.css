@@ -50,7 +50,6 @@ a {
 
 .main-search{
     border: solid var(--main-bg-color) 1px;
-    width: 370px;
 }
 
 .search-text {
@@ -77,6 +76,10 @@ a:hover {
 
 .filter button:hover {
     background-color: var(--filter-bg-color);
+}
+
+.button-filter {
+    flex-wrap: wrap;
 }
 
 .fa-info {
@@ -126,6 +129,10 @@ footer h3 {
     width: 24px;
 }
 
+.visible-sm {
+    display: none !important;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
@@ -146,21 +153,21 @@ footer h3 {
     display: flex;
     flex-direction: column;
     flex: 1;
-    width: 33%;
 }
 
 .hebergements-cards img {
     height: 114px;
     border-radius: 20px 20px 0px 0px;
+    width: 100%;
 }
 
 .hebergements-cards .card-content {
-    height: 40%;
     padding-left: 15px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
     gap: 8px;
+    flex-grow: 1;
 }
 
 .hebergements-cards .card-title {
@@ -174,6 +181,7 @@ footer h3 {
 
 .hebergements-cards .card-rating {
     margin-bottom: 7px;
+    margin-top: auto;
 }
 
 .hebergements a {
@@ -293,12 +301,20 @@ footer h3 {
     .activity-card img{
         height: 200px;
     }
+
+    .filter {
+        flex-direction: column;
+    }
+
+    .title-filter {
+        margin: 0;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     .visible-sm {
-        display: block;
+        display: block !important;
     }
 
     .visible-td {
@@ -307,6 +323,11 @@ footer h3 {
 
     body {
         margin: 0;
+        padding: 0;
+    }
+
+    main {
+        padding: 0 20px;
     }
 
     header {
@@ -320,6 +341,41 @@ footer h3 {
 
     .mobile-card {
         flex-direction: column;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+    }
+
+    .populaires-cards .card {
+        width: 100%;
+    }
+    
+    .activity-card {
+        flex-direction: column;
+    }
+
+    .activity-card img {
+        height: 141px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 50px;
+        padding: 30px;
+    }
+
+    header img {
+        display: flex;
+        margin: auto;
+    }
+
+    .search-text {
+        text-align: left !important;
+    }
+
+    .button-filter button {
+        font-size: 14px !important;
     }
 }
 
