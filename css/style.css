@@ -21,10 +21,6 @@ body {
     margin: auto;
 }
 
-header {
-    height: 69px;
-}
-
 header li {
     border-top: solid 2px transparent;
 }
@@ -50,10 +46,15 @@ a {
 
 .main-search{
     border: solid var(--main-bg-color) 1px;
+    max-width: 350px;
 }
 
 .search-text {
     border-color: transparent;
+}
+
+.search-text:focus-visible {
+    outline: none;
 }
 
 .search-bar button {
@@ -80,12 +81,6 @@ a:hover {
 
 .button-filter {
     flex-wrap: wrap;
-}
-
-.fa-info {
-    border-radius: 50%;
-    border: solid 1px #d9d9d9;
-    line-height: 24px;
 }
 
 .card {
@@ -127,6 +122,10 @@ footer h3 {
 .info {
     height: 24px;
     width: 24px;
+    font-size: 14px;
+    border-radius: 50%;
+    border: solid 1px #d9d9d9;
+    line-height: 24px;
 }
 
 .visible-sm {
@@ -368,6 +367,7 @@ footer h3 {
     header img {
         display: flex;
         margin: auto;
+        margin-bottom: 30px;
     }
 
     .search-text {
@@ -377,6 +377,25 @@ footer h3 {
     .button-filter button {
         font-size: 14px !important;
     }
+
+    header ul {
+        margin: auto !important;
+        gap: 0 !important;
+        justify-content: center;
+        padding: 0;
+    }
+
+    header li {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 15px;
+        padding-top: 0 !important;
+        border-bottom: #F2F2F2 solid 2px;
+        border-top: 0px !important;
+    }
+
+
 }
 
 

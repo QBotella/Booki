@@ -19,7 +19,7 @@
 } 
 
 .g-69 {
-    gap: 69px !important;
+    gap: 69px ;
 }
 
 .g-40 {
@@ -47,7 +47,7 @@
 }
 
 .m-0 {
-    margin: 0 !important;
+    margin: 0;
 }
 
 .m-t-30 {
@@ -79,7 +79,7 @@
 }
 
 .p-t-16 {
-    padding-top: 16px !important;
+    padding-top: 16px;
 }
 
 .b-rad-25 {
