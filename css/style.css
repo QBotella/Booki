@@ -183,9 +183,14 @@ footer h3 {
     margin-top: auto;
 }
 
-.hebergements a {
+.hebergements .afficher {
     font-size: 18px;
     font-weight: 700;
+}
+
+.hebergements a {
+    display: flex;
+    flex: 1;
 }
 
 /****** Populaires ***********/
@@ -277,16 +282,25 @@ footer h3 {
     .populaires {
         width: 100%;
         margin-top: 50px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
     }
 
     .populaires-cards {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        gap: 20px;
     }
 
     .populaires-cards .card {
-        width: 30%;
+        margin: 0;
+    }
+
+    .populaires-cards a {
+        display: flex;
+        flex: 1;
     }
 
     .populaires-cards .card-title {
